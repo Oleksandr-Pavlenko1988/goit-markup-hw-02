@@ -1,0 +1,88 @@
+:root {
+
+}
+/* колір абзаців color: #757575; */
+/* колір акценту color: #2196F3; */
+/* колір заголовків color: #212121; */
+ul {
+    list-style-type: none;
+}
+body {
+    background-color: #ffffff;
+    color: #757575;
+   
+    /* header */
+}
+.header-logo {
+    color: #000000;
+    text-decoration: none;
+}
+.header-logo span {
+    color: #2196F3;
+}
+.nav {
+    color: #212121;
+    text-decoration: none;
+}
+.nav:hover,
+.nav:focus {
+    color: #2196F3;
+}
+.contact-header {
+    color: inherit;
+    text-decoration: none;
+}
+.contact-header:hover,
+.contact-header:focus {
+    color: #2196F3;
+}
+
+/* main */
+.hero {
+    color: #ffffff;
+    background-color: #2F303A;
+}
+.button-order {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #2196F3;
+}
+
+/* features */
+.features-heading {
+    color: #212121;
+}
+
+/* examples */
+.examples-heading {
+    color: #212121;
+}
+
+/* team */
+.team {
+    background-color: #F5F4FA;
+}
+.team-heading {
+    color: #212121;
+}
+
+/* footer */
+.footer {
+    color: #ffffff;
+    background-color: #2F303A;
+}
+.footer-logo {
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer-logo span {
+    color: #2196F3;
+}
+.contact-footer {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+.contact-footer:hover,
+.contact-footer:focus {
+    color: #2196F3;
+}
