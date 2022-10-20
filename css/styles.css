@@ -9,19 +9,14 @@
     --header-color: #212121;
     --primary-white-color: #ffffff;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: var(--header-color);
-}
 
-ul {
-    list-style-type: none;
+.list-style {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 body {
+    margin: 0;
     background-color: var(--primary-white-color);
     color: var(--main-color);
     font-family: 'Roboto', sans-serif;
@@ -39,7 +34,7 @@ body {
     font-size: 26px;
     line-height: 1.19;
 }
-.header-logo>span {
+.logo-accent {
     color: var(--accent-color);
 }
 .nav {
@@ -64,9 +59,11 @@ body {
 }
 
 /* main */
+.section-hero {
+    background-color: #2F303A;
+}
 .hero {
     color: var(--primary-white-color);
-    background-color: #2F303A;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -91,6 +88,7 @@ body {
 
 /* features */
 .features-heading {
+    color: var(--header-color);
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
@@ -98,6 +96,7 @@ body {
 
 /* examples */
 .examples-heading {
+    color: var(--header-color);
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -108,11 +107,13 @@ body {
     background-color: #F5F4FA;
 }
 .team-heading {
+    color: var(--header-color);
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
 }
 .person-heading {
+    color: var(--header-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -136,9 +137,6 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-}
-.footer-logo>span {
-    color: var(--accent-color);
 }
 .address {
     color: var(--primary-white-color);
@@ -175,6 +173,7 @@ body {
     background-color: var(--accent-color);
 }
 .portfolio-header {
+    color: var(--header-color);
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
